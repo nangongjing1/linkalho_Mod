@@ -42,8 +42,8 @@ SOURCES		:=	source source/core source/styles source/utils source/views lib/zippe
 DATA		:=	data
 INCLUDES	:=	include lib/zipper/include
 APP_TITLE   :=  Linkalho
-APP_AUTHOR  :=  rrocha
-APP_VERSION :=  2.0.1
+APP_AUTHOR  :=  rrocha & nangongjing1
+APP_VERSION :=  2.0.1_CHS
 TARGET		:=	$(shell echo $(APP_TITLE) | tr A-Z a-z)
 ROMFS				:=	resources
 BOREALIS_PATH		:=	lib/borealis
@@ -177,7 +177,7 @@ $(ROMFS):
 	@rm -rf $(CURDIR)/$(ROMFS)/i18n/fr
 	@rm -rf $(CURDIR)/$(ROMFS)/i18n/*/installer.json $(CURDIR)/$(ROMFS)/i18n/*/main.json $(CURDIR)/$(ROMFS)/i18n/*/popup.json $(CURDIR)/$(ROMFS)/i18n/*/custom_layout.json
 	@cp -rf $(CURDIR)/$(BOREALIS_PATH)/resources/inter $(CURDIR)/$(BOREALIS_PATH)/resources/material $(CURDIR)/$(ROMFS)/
-	@find . -name ".DS_Store" | xargs rm
+	@find . -name ".DS_Store" -delete
 
 $(BUILD): $(ROMFS)
 	@[ -d $@ ] || mkdir -p $@

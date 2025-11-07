@@ -1,55 +1,55 @@
 {
     "restore_backup_view": {
-        "title": "Restore backup",
-        "not_found_dialog_hint": "Restore file not found!",
-        "not_found_dialog_text": "To restore, please place your backup file into\n{}\n\nMake sure the backup is valid as it will overwrite the console's partition files and might cause your Switch to stop booting!",
-        "not_found_dialog_btn": "close",
-        "warning": "Restoring this backup WILL overwrite all files!\n(Your saves will be preserved)\n\nMake sure the backup is valid as it will overwrite the console's partition files and might cause your Switch to stop booting!",
-        "working": "Restoring...",
-        "complete": "Backup restored!"
+        "title": "恢复备份",
+        "not_found_dialog_hint": "未找到恢复文件！",
+        "not_found_dialog_text": "要恢复，请将备份文件放入：\n{}\n\n请确保备份有效，因为它将覆盖主机分区文件，可能导致Switch无法启动！",
+        "not_found_dialog_btn": "关闭",
+        "warning": "恢复此备份将覆盖所有文件！\n（您的存档将被保留）\n\n请确保备份有效，因为它将覆盖主机分区文件，可能导致Switch无法启动！",
+        "working": "正在恢复...",
+        "complete": "备份已恢复！"
     },
     "create_backup_view": {
-        "title": "Create manual backup",
-        "warning": "All linking and unlinking operations will produce a backup before making changes!\n\nYou should only use this option if you want to manually create a backup.",
-        "working": "Backing up...",
-        "complete": "Backup created!"
+        "title": "创建手动备份",
+        "warning": "所有链接和解绑操作都会在更改前创建备份！\n\n此选项仅用于手动创建备份。",
+        "working": "正在备份...",
+        "complete": "备份已创建！"
     },
     "link_accounts_view": {
-        "title": "Link selected accounts",
-        "warning": "Linking accounts will overwrite all previous links.\n(Your saves will be preserved)\n\nIf any of the selected accounts had a NNID link, it will be overwritten!",
-        "working": "Linking...",
-        "complete": "Accounts linked!"
+        "title": "链接选定账户",
+        "warning": "链接账户将覆盖所有之前的链接。\n（您的存档将被保留）\n\n如果任何选定账户已有NNID链接，将被覆盖！",
+        "working": "正在链接...",
+        "complete": "账户已链接！"
     },
     "unlink_accounts_view": {
-        "title": "Unlink selected accounts",
-        "warning": "Unlinking will change users accounts.\n(Your saves will be preserved)\n\nIf any of the selected accounts had a NNID link, it will be erased!",
-        "working": "Uninking...",
-        "complete": "Accounts unlinked!"
+        "title": "解绑选定账户",
+        "warning": "解绑将更改用户账户。\n（您的存档将被保留）\n\n如果任何选定账户已有NNID链接，将被删除！",
+        "working": "正在解绑...",
+        "complete": "账户已解绑！"
     },
     "country_select_view": {
-        "title": "Select country for linked accounts"
+        "title": "为链接账户选择国家/地区"
     },
     "account_select_view": {
-        "title": "Select accounts to link/unlink",
-        "select_all": "Select all",
-        "unselect_all": "Unselect all",
-        "selected_count": "{}/{} selected",
-        "extra_info": "Found {} account{}\nReboot to payload {}",
-        "reboot_payload_disabled": "disabled",
-        "reboot_payload_inactive": "inactive ({} not found)",
-        "reboot_payload_active": "active"
+        "title": "选择要链接/解绑的账户",
+        "select_all": "全选",
+        "unselect_all": "取消全选",
+        "selected_count": "已选 {}/{}",
+        "extra_info": "找到 {} 个账户{}\n重启到payload {}",
+        "reboot_payload_disabled": "已禁用",
+        "reboot_payload_inactive": "未激活（未找到 {}）",
+        "reboot_payload_active": "已激活"
     },
     "account_list_item": {
-        "linked": "Linked",
-        "not_linked": "Not linked"
+        "linked": "已链接",
+        "not_linked": "未链接"
     },
     "confirm_view": {
-        "continue": "Continue",
-        "back": "Back",
-        "reboot": "Reboot",
-        "reboot_to_payload": "Reboot to payload"
+        "continue": "继续",
+        "back": "返回",
+        "reboot": "重启",
+        "reboot_to_payload": "重启到payload"
     },
     "errors": {
-        "no_accounts_selected": "No accounts selected!"
+        "no_accounts_selected": "未选择账户！"
     }
 }

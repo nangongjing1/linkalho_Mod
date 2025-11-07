@@ -21,7 +21,7 @@ void AccountSelectView::computeValue() {
             reboot_payload_text = "translations/account_select_view/reboot_payload_active"_i18n;
         }
     }
-    this->setDescription(fmt::format("translations/account_select_view/extra_info"_i18n, SharedSettings::instance().getProfileCount(), (SharedSettings::instance().getProfileCount() == 1 ? "" : "s"), reboot_payload_text));
+    this->setDescription(fmt::format("translations/account_select_view/extra_info"_i18n, SharedSettings::instance().getProfileCount(), (SharedSettings::instance().getProfileCount() == 1 ? "" : ""), reboot_payload_text));
 }
 
 AccountSelectView::AccountSelectView() : ListItem("translations/account_select_view/title"_i18n)
