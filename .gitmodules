@@ -1,6 +1,0 @@
-[submodule "lib/zipper"]
-	path = lib/zipper
-	url = https://github.com/rdmrocha/zipper.git
-[submodule "lib/borealis"]
-	path = lib/borealis
-	url = https://github.com/rdmrocha/borealis.git
