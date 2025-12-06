@@ -1,41 +1,41 @@
 {
     "restore_backup_view": {
-        "title": "恢復備份",
-        "not_found_dialog_hint": "未找到恢復檔案！",
-        "not_found_dialog_text": "要恢復，請將備份檔案放入：\n{}\n\n請確保備份有效，因為它將覆蓋主機分割槽檔案，可能導致Switch無法啟動！",
+        "title": "還原備份",
+        "not_found_dialog_hint": "未找到還原檔案！",
+        "not_found_dialog_text": "若要還原，請將備份檔案放入：\n{}\n\n請確保備份有效，因為它會覆蓋主機分割區檔案，可能導致Switch無法啟動！",
         "not_found_dialog_btn": "關閉",
-        "warning": "恢復此備份將覆蓋所有檔案！\n（您的存檔將被保留）\n\n請確保備份有效，因為它將覆蓋主機分割槽檔案，可能導致Switch無法啟動！",
-        "working": "正在恢復...",
-        "complete": "備份已恢復！"
+        "warning": "還原此備份將覆蓋所有檔案！\n（您的存檔將被保留）\n\n請確保備份有效，因為它會覆蓋主機分割區檔案，可能導致Switch無法啟動！",
+        "working": "正在還原...",
+        "complete": "備份已還原！"
     },
     "create_backup_view": {
         "title": "建立手動備份",
-        "warning": "所有連結和解除綁定操作都會在更改前建立備份！\n\n此選項僅用於手動建立備份。",
+        "warning": "所有連結和解綁操作都會在變更前建立備份！\n\n此選項僅用於手動建立備份。",
         "working": "正在備份...",
         "complete": "備份已建立！"
     },
     "link_accounts_view": {
-        "title": "連結選定賬戶",
-        "warning": "連結賬戶將覆蓋所有之前的連結。\n（您的存檔將被保留）\n\n如果任何選定賬戶已有NNID連結，將被覆蓋！",
+        "title": "連結選定帳戶",
+        "warning": "連結帳戶將覆蓋所有之前的連結。\n（您的存檔將被保留）\n\n如果任何選定帳戶已有NNID連結，將被覆蓋！",
         "working": "正在連結...",
-        "complete": "賬戶已連結！"
+        "complete": "帳戶已連結！"
     },
     "unlink_accounts_view": {
-        "title": "解除綁定選定賬戶",
-        "warning": "解除綁定將更改使用者賬戶。\n（您的存檔將被保留）\n\n如果任何選定賬戶已有NNID連結，將被刪除！",
-        "working": "正在解除綁定...",
-        "complete": "賬戶已解除綁定！"
+        "title": "解除選定帳戶連結",
+        "warning": "解除連結將變更使用者帳戶。\n（您的存檔將被保留）\n\n如果任何選定帳戶已有NNID連結，將被刪除！",
+        "working": "正在解除連結...",
+        "complete": "帳戶已解除連結！"
     },
     "country_select_view": {
-        "title": "為連結賬戶選擇國家/地區"
+        "title": "為連結帳戶選擇國家/地區"
     },
     "account_select_view": {
-        "title": "選擇要連結/解除綁定的賬戶",
+        "title": "選擇要連結/解除連結的帳戶",
         "select_all": "全選",
         "unselect_all": "取消全選",
         "selected_count": "已選 {}/{}",
-        "extra_info": "找到 {} 個賬戶{}\n重啟到payload {}",
-        "reboot_payload_disabled": "已禁用",
+        "extra_info": "找到 {} 個帳戶{}\n重新啟動到payload {}",
+        "reboot_payload_disabled": "已停用",
         "reboot_payload_inactive": "未啟用（未找到 {}）",
         "reboot_payload_active": "已啟用"
     },
@@ -46,10 +46,10 @@
     "confirm_view": {
         "continue": "繼續",
         "back": "返回",
-        "reboot": "重啟",
-        "reboot_to_payload": "重啟到payload"
+        "reboot": "重新啟動",
+        "reboot_to_payload": "重新啟動到payload"
     },
     "errors": {
-        "no_accounts_selected": "未選擇賬戶！"
+        "no_accounts_selected": "未選擇帳戶！"
     }
 }
